@@ -1,0 +1,10 @@
+quarkus:
+  http:
+    port: 8181
+  openapi-generator:
+    codegen:
+      spec:
+        openapi_yaml:
+          mutiny: true
+  smallrye-openapi:
+    enum-as-string: true
